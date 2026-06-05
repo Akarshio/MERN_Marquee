@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background: #f1f3f6;
+}
+
+.Nav-bar-master{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 120px;
+    width: 100vmax;
+}
+.top-nav-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: #2874f0;
+    padding: 10px;
+    height: auto;
+}
+.left-nav-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.logo-btn-name{
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.right-nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.location-btn-name{
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.mid-nav-container{
+    display: grid;
+    grid-template-columns: 1fr 50fr 1fr 1fr 1fr ;
+    background-color: white;
+    padding: 10px;
+    height: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-icon{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-bar{
+    grid-column: 2/3;
+}
+.search-bar input{
+    width:98%;
+    padding:10px;
+    font-size:16px;
+}
+.logo-btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.label-btn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.auth-button{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.more-btn{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cart-btn{
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.nav-bar-bottom{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #fdfff1;
+    height: auto;
+
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.items li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+
+}
+.items li i{
+    margin-right: 8px;
+}
+a{
+    color: black;
+}
