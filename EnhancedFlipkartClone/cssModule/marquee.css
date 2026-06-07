@@ -1,0 +1,54 @@
+.marquee-container {
+    width: 1434px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.marquee-clip {
+    width: 1234px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*animation wala bhi chatgpt*/
+.marquee-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 100%;
+    gap: 12px;
+    animation: infiniteScroll 25s linear infinite;
+    cursor: pointer;
+}
+
+ /*chat gpt se copy*/
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+.banner {
+    height: 224px;
+    width: 460px;
+    flex-shrink: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/*chat gpt se*/
+/* 8 banners × (460 + 12) = 3776px for one full set */
+@keyframes infiniteScroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-3776px); } /* ← exact one set scroll */
+}
