@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+<form action="index.html" method="get"  >
+    <h1>Sport Physical Form </h1>
+    <fieldset class="form-group-1">
+        <legend class="legend-style"><h2>Athlete Info</h2></legend>
+        <ul>
+            <li>Name: <input class="input-text" type="text" name="player-info" id="player-name"></li>
+            <li>School / Team : <input class="input-text" type="text" name="player-info" id="player-team"></li>
+            <li>Sport Name: <input class="input-text" type="text" name="player-info" id="sport-name"></li>
+            <li>Parent / Guardian names: <input class="input-text" type="text" name="player-info" id="guardian-name"></li>
+            <li>Contact Number: <input class="input-text" type="text" name="player-info" id="contact-number"></li>
+        </ul>
+    </fieldset>
+    <fieldset class="form-group-1">
+        <legend class="legend-style" ><h2>Medical History For Athlete </h2></legend>
+        <ul>
+            <li>History of concussion:
+                <label for="history-concussion-yes">Yes
+                <input type="radio" name="history-concussion" id="history-concussion-yes" value="history-concussion-yes">
+            </label>
+                <label for="history-concussion-no">No
+                    <input  type="radio" name="history-concussion" id="history-concussion-no" value="history-concussion-no">
+                </label>
+                </li>
+            <li>Previous surgeries:
+                <label for="history-surgeries-details">
+                <input class="input-text" type="text" name="history-surgeries" id="history-surgeries-details"  placeholder="surgery name">
+            </label></li>
+           <li>Any bone fractures: <label for="fracture-concussion-yes">Yes
+                <input type="radio" name="fracture-concussion" id="fracture-concussion-yes" value="fracture-concussion-yes">
+            </label>
+                <label for="fracture-concussion-no">No
+                    <input  type="radio" name="fracture-concussion" id="fracture-concussion-no" value="fracture-concussion-no">
+                </label></li>
+          <li>Asthma or breathing problem: <label for="breathing-concussion-yes">Yes
+                <input type="radio" name="breathing-concussion" id="breathing-concussion-yes" value="breathing-concussion-yes">
+            </label>
+                <label for="breathing-concussion-no">No
+                    <input  type="radio" name="breathing-concussion" id="breathing-concussion-no" value="breathing-concussion-no">
+                </label></li>
+
+        </ul>
+    </fieldset>
+    <fieldset class="form-group-1">
+        <legend class="legend-style" ><h2>Select your department</h2></legend>
+        <select name="department-name" id="department-name">
+            <option value="NULL">Select your department</option>
+            <option value="CSE">CSE</option>
+            <option value="CSE">AIML</option>
+            <option value="CSE">AIDS</option>
+        </select>
+    </fieldset>
+    <fieldset class="form-group-1">
+        <legend class="legend-style"><h2>Select your hobbies</h2></legend>
+
+        <label for="hobbies-category-gaming">Gaming</label>
+        <input type="checkbox" name="hobbies-category" id="hobbies-category-gaming" value="Gaming" >
+
+        <label for="hobbies-category-swimming">Swimming</label>
+        <input type="checkbox" name="hobbies-category" id="hobbies-category-swimming" value="Swimming">
+
+        <label for="hobbies-category-music">Music</label>
+        <input type="checkbox" name="hobbies-category" id="hobbies-category-music" value="Music" >
+    </fieldset>
+    <fieldset class="form-group-1">
+        <legend class="legend-style"><h2>Personal</h2></legend>
+        <ul>
+            <li>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="20" rows="1"></textarea>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"  required >
+            </li>
+            <li>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="8">
+            </li>
+            <li>
+                <label for="dob">DOB</label>
+                <input type="date" name="DOB" id="dob" >
+            </li>
+            <li>
+                <label for="profile-img">Attach profile image</label>
+                <input type="file" name="profile-img" id="profile-img"  accept=".jpg,.jpeg,.png" >
+            </li>
+            <li>
+                <label for="resume-">Attach resume file</label>
+                <input type="file" name="resume" id="resume-"  accept=".pdf" >
+            </li>
+            <li>
+                <label for="word-file">Attach word file</label>
+                <input type="file" name="word-file" id="word-file"  accept=".doc,.docx " >
+            </li>
+            <li>
+                <label for="excel-file">Attach excel file</label>
+                <input type="file" name="excel-file" id="excel-file"  accept=".xlx,.xlsx " >
+            </li>
+        </ul>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+</form>
+
+</div>
+
+
+</body>
+</html>
