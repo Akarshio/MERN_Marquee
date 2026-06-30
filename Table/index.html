@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+</head>
+<body>
+        <table>
+            <caption>Employee Details</caption>
+            <thead>
+
+            <tr>
+                <th>Emp Code</th>
+                <th>Emp Name</th>
+                <th>Job Title</th>
+                <th>Salary (LPA)</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <colgroup>
+                <col span="1" style="background-color: #2EA1FF">
+            </colgroup>
+            <tr>
+                <td>001</td>
+                <td>Aryan</td>
+                <td>SDE</td>
+                <td>6.5</td>
+            </tr>
+            <tr>
+
+                <td>002</td>
+                <td>Akarsh</td>
+                <td>Tester</td>
+                <td rowspan="2">5.5</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Naman</td>
+                <td>Frontend Developer</td>
+<!--                <td>4.5</td>-->
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Akarsh</td>
+                <td>Backend Developer</td>
+                <td>6.5</td>
+            </tr>
+            </tbody>
+
+             <tfoot>
+
+                <tr>
+                    <td colspan="4">Total</td>
+                </tr>
+             </tfoot>
+        </table>
+</body>
+</html>

@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+
+}
+thead{
+    background-color: gray;
+}
+caption{
+    font: bold 14px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+th , td, caption{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+tfoot{
+    background-color: #FFE51F;
+    font-style: italic;
+    font-weight: bold;
+}
