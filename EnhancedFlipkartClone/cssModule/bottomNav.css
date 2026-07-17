@@ -29,7 +29,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     cursor: pointer;
 
 }
@@ -49,4 +48,27 @@
     padding: 5px;
 }
 
+ */
 
+.marquee{
+    display: flex;
+    flex-direction: row;
+    height: 240px ;
+    width: 1320px;
+    padding: 10px;
+    margin-left: 115px;
+    margin-right: 40px;
+}
+.mar-content{
+    height: 240px ;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    overflow: hidden;
+}
+.banner{
+
+}

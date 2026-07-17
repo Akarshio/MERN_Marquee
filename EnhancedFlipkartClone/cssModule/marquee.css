@@ -6,6 +6,32 @@
     position: relative;
     display: flex;
     justify-content: center;
+    overflow-x: scroll;
+
+
+}
+.marquee{
+    width: 1334px;
+    height: 250px;
+    margin-left: 110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.mar-content{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 100%;
+    gap: 12px;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+.banner-text{
+    width: max-content;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
 
 }
 
@@ -15,6 +41,8 @@
     height: 100%;
     overflow: hidden;
     position: relative;
+
+
 }
 
 /*animation wala bhi chatgpt*/
@@ -26,6 +54,7 @@
     gap: 12px;
     animation: infiniteScroll 25s linear infinite;
     cursor: pointer;
+
 }
 
  /*chat gpt se copy*/
